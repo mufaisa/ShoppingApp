@@ -1,0 +1,82 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 60px solid grey;
+    background-color: black;
+    color: antiquewhite;
+    width: 350px;
+    font-size: larger;
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Courier New', Courier, monospace;
+    color: antiquewhite;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.products>* {
+    flex: 1 1 1 320px;
+}
+
+body {
+    background-color: grey;
+}
+
+.add {
+    background-color: green;
+    border: 1px solid green;
+    color: antiquewhite;
+    font-size: large;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    width: 120px;
+    height: 5vh;
+
+}
+
+.add:hover {
+    background-color: rgb(3, 64, 3);
+    cursor: pointer;
+}
+
+img {
+    width: 330px;
+    height: 330px;
+    margin-top: 10px;
+}
+
+.desc,
+h3 {
+    width: 330px;
+
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 7px;
+    /* background-color: black; */
+    color: antiquewhite;
+    margin-top: 10px;
+}
+
+.desc {
+    border: 1px solid white;
+    font-size: small;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    /* padding: 0; */
+}

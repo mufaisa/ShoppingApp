@@ -1,0 +1,27 @@
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.boxn {
+    /* color: black; */
+    border: 1px solid black;
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: x-large;
+    background-color: black;
+    margin-top: 0px;
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+}
+
+.active {
+    text-decoration: none;
+    color: rgb(155, 68, 68);
+}
